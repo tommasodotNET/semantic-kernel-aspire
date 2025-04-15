@@ -8,12 +8,14 @@ This is a demo to showcase how to use the [Semantic Kernel Agent Framework](http
 
 Note that you can use either DefaultAzureCredentials or API Keys for authentication.
 
+You need to add the connection string to your AppHost `appsettings.json` file. The connection string format depends on the authentication method you choose.
+
 Using DefaultAzureCredentials:
 
 ```json
 {
   "ConnectionStrings": {
-    "openAiConnectionName": "https://{account_name}.openai.azure.com/"
+    "azureOpenAI": "https://{account_name}.openai.azure.com/"
   }
 }
 ```
@@ -23,7 +25,7 @@ Using API Keys:
 ```json
 {
   "ConnectionStrings": {
-    "openAiConnectionName": "Endpoint=https://{account_name}.openai.azure.com/;Key={api_key};"
+    "azureOpenAI": "Endpoint=https://{account_name}.openai.azure.com/;Key={api_key};"
   },
 }
 ```
