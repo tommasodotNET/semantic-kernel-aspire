@@ -4,7 +4,7 @@ This is a demo to showcase how to use the [Semantic Kernel Agent Framework](http
 
 ## How to run the example
 
-1. Configure the OpenAI integration for .NET Aspire accoring to the [documentation](https://learn.microsoft.com/en-us/dotnet/aspire/azureai/azureai-openai-integration?tabs=dotnet-cli#connect-to-an-existing-azure-openai-service).
+1. Configure the OpenAI integration for .NET Aspire according to the [documentation](https://learn.microsoft.com/en-us/dotnet/aspire/azureai/azureai-openai-integration?tabs=dotnet-cli#connect-to-an-existing-azure-openai-service).
 
 Note that you can use either DefaultAzureCredentials or API Keys for authentication.
 
